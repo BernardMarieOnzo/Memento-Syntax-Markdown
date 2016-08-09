@@ -285,7 +285,7 @@ GitHub supporte l'utilisation d'emoji. Vous trouverez la liste
 
 > Je sais faire quelque chose en HTML mais j'y arrive pas en Markdown! :sob:
 
-Pas de panique! Sur GitHub, il est possible d'ajouter du HTML dans son fichier Markdown :smile:
+Pas de panique! Il est possible d'ajouter du HTML dans son fichier Markdown :smile:
 
 ````
 Ceci est du Markdown
