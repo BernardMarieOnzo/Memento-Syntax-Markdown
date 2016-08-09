@@ -10,15 +10,19 @@ Il est possible d'utiliser le Markdown à divers endroits sur GitHub :
 
 ### Paragraphes
 
-Pour créer des paragraphes, il suffit de laisser une ligne vide entre le texte. Les simples sauts de lignes ne sont pas pris en compte et poursuivent sur la même ligne.
+Pour créer des paragraphes, il suffit de laisser une ligne vide entre le texte. Les simples sauts de lignes dans le code ne sont pas pris en compte et poursuivent sur la même ligne dans le rendu.
+Pour effectuer un véritable saut de ligne (retour chariot), il faut ajouter plus de 2 espaces en fin de phrase.
 
 ```
 Voici un paragraphe !
 
 En voilà un autre
 
-Ceci est une phrase avec un saut
+Ceci est une phrase avec un simple saut
 de ligne
+
+Voilà une phrase avec 4 espaces a la fin    
+et la suite de la phrase
 ```
 
 **Résultat :**
@@ -27,8 +31,11 @@ Voici un paragraphe !
 
 En voilà un autre
 
-Ceci est une phrase avec un saut
+Ceci est une phrase avec un simple saut
 de ligne
+
+Voilà une phrase avec 4 espaces a la fin    
+et la suite de la phrase
 
 ### Emphase
 
@@ -126,6 +133,8 @@ Plusieurs tirets ou étoiles, au choix
 
 ## Liens
 
+### Liens basiques
+
 ````
 [Texte du lien](url du lien)
 
@@ -137,6 +146,23 @@ Du texte avec un lien vers [OpenClassrooms](https://openclassrooms.com/)
 [Texte du lien](url du lien)
 
 Du texte avec un lien vers [OpenClassrooms](https://openclassrooms.com/)
+
+### Astuce liens ancre
+
+Pratique pour sommaire
+
+````
+#### Mon titre avec une ancre <a id="nom_ancre"></a>
+
+[lien envoyant à l'ancre](#nom_ancre)
+````
+
+**Résultat :**
+
+#### Mon titre avec une ancre <a id="nom_ancre"></a>
+
+[lien envoyant à l'ancre](#nom_ancre)
+
 
 ## Citations
 
