@@ -177,15 +177,17 @@ Du texte avec un peu `de code` à l'intérieur
 ### Blocs de code
 
 ````
-\`\`\`
+
+```
 Ceci est un bloc de code
 sur plusieurs lignes
-\`\`\`
+```
 
-\`\`\` javascript
+``` javascript
 alert("Ceci est un bloc de code javascript avec coloration syntaxique")
 console.log("Hello World !")
-\`\`\`
+```
+
 ````
 
 **Résultat :**
@@ -270,6 +272,8 @@ Ceci est du Markdown
 
 Sur la <a href="#">même<a> ligne
 ````
+
+**Résultat :**
 
 Ceci est du Markdown
 
