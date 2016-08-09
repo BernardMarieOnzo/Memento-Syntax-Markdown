@@ -6,7 +6,9 @@ Il est possible d'utiliser le Markdown à divers endroits sur GitHub :
 * Les commentaires dans les issues et pull request
 * Les fichiers avec l'extension `.md` ou `.markdown`
 
+
 ## Texte
+
 
 ### Paragraphes
 
@@ -37,6 +39,7 @@ de ligne
 Voilà une phrase avec 4 espaces a la fin    
 et la suite de la phrase
 
+
 ### Emphase
 
 Gras :
@@ -50,6 +53,7 @@ Italique :
 Barré :
 
 \~\~Texte barré\~\~ = ~~Texte barré~~
+
 
 ### Les titres
 
@@ -71,6 +75,7 @@ Barré :
 ##### Titre de niveau 5
 ###### Titre de niveau 6
 
+
 ### Barres de séparation
 
 Plusieurs tirets ou étoiles, au choix
@@ -85,7 +90,9 @@ Plusieurs tirets ou étoiles, au choix
 
 ----------------
 
+
 ## Les listes
+
 
 ### Liste non ordonnée
 
@@ -109,6 +116,7 @@ Plusieurs tirets ou étoiles, au choix
         * Element 3.2.1
 * Element 4
 
+
 ### Liste ordonnée
 
 ````
@@ -131,7 +139,9 @@ Plusieurs tirets ou étoiles, au choix
         * Element 3.2.1
 4. Element 4
 
+
 ## Liens
+
 
 ### Liens basiques
 
@@ -146,6 +156,7 @@ Du texte avec un lien vers [OpenClassrooms](https://openclassrooms.com/)
 [Texte du lien](url du lien)
 
 Du texte avec un lien vers [OpenClassrooms](https://openclassrooms.com/)
+
 
 ### Astuce liens ancre
 
@@ -188,7 +199,9 @@ Voici une citation :
 > > Les citations a l'interieur
 > > d'autres citations aussi
 
+
 ## Insertion de code
+
 
 ### Code en ligne
 
@@ -199,6 +212,7 @@ Du texte avec un peu `de code` à l'intérieur
 **Résultat :**
 
 Du texte avec un peu `de code` à l'intérieur
+
 
 ### Blocs de code
 
@@ -224,6 +238,7 @@ alert("Ceci est un bloc de code javascript avec coloration syntaxique")
 console.log("Hello World !")
 ```
 
+
 ## Liste des taches
 
 ````
@@ -237,6 +252,7 @@ console.log("Hello World !")
 - [x] Fait
 - [ ] A faire
 - [x] Fait
+
 
 ## Tableaux
 
@@ -258,11 +274,13 @@ Deuxième ligne | Deuxième ligne
  | <- Case vide
 Quatrième ligne | Quatrième ligne
 
+
 ## Images
 
 ````
 ![Texte Alternatif](lien de l'image)
 ````
+
 
 ## Emoji
 
@@ -280,6 +298,7 @@ GitHub supporte l'utilisation d'emoji. Vous trouverez la liste
 :smile: :dizzy_face:
 
 :heart:
+
 
 ## Autres
 
