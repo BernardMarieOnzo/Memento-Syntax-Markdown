@@ -178,7 +178,7 @@ Du texte avec un peu `de code` à l'intérieur
 
 ````
 
-```
+\```
 Ceci est un bloc de code
 sur plusieurs lignes
 ```
